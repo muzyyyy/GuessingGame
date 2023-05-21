@@ -1,13 +1,13 @@
 import random
 
-number = random.randint(1, 10)
+number = random.randint(1, 20)
 
 playerName = input("Hello Whats your name? ")
 numberOfGuesses = 0
-print('Hello! '+ playerName + ', I am guessing a number between 1 to 10')
+print('Hello! ' + playerName +', I will be generating a number between 1-20 and you will be given 10 tries to guess the number!')
 
 #The loop
-while numberOfGuesses < 5 :
+while numberOfGuesses < 10 :
     print('Guess the number')
     guess = int(input())
     numberOfGuesses += 1
