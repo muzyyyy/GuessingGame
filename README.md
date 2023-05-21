@@ -1,2 +1,4 @@
 # GuessingGame
-A guessing game
+A Guessing Game
+
+run the code and play the game!
